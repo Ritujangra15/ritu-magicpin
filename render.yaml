@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: vera-magicpin
+    runtime: docker
+    plan: free
+    healthCheckPath: /v1/healthz
